@@ -105,7 +105,8 @@ form input {
     }
 
     #resultado {
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 50px;
+        margin-bottom: 150px;
     }
 }
