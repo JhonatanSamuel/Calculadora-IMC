@@ -92,6 +92,10 @@ form input {
 
 @media screen and (max-width: 600px) {
 
+    .container {
+        padding: 15px;
+    }
+    
     .resum-imc h1 {
         font-size: 30px;
     }
@@ -104,9 +108,20 @@ form input {
         font-size: 17px;
     }
 
+    form input {
+        height: 30px;
+        width: 150px;
+        margin: 13px 0;
+    }
+
+    .calcular-imc {
+        height: 45px;
+        width: 200px;
+    }
+
     #resultado {
         font-size: 25px;
-        margin-top: 50px;
+        margin-top: 40px;
         margin-bottom: 150px;
     }
 }
