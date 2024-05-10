@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(225, 219, 235, 0.733);
+}
+
+.container {
+    display: block;
+    height: 18rem;
+    width: 50rem;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.resum-imc {
+
+}
+
+.resum-imc h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: rgba(228, 0, 0, 0.588);
+}
+
+.resum-imc p {
+    font-size: 19px;
+    color: rgb(101, 101, 160);
+}
+
+h4 {
+    font-size: 19px;
+    color: rgb(101, 101, 160);
+    margin-top: 70px;
+}
+
+form {
+    margin-top: 30px;
+    height: 100%;
+    color: rgb(101, 101, 160);;
+    padding: 30px;
+
+}
+
+form label {
+    font-size: 18px;
+}
+
+form input {
+    border: 1px solid black;
+    height: 27px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(240, 240, 251);;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.calcular-imc {
+    margin-top: 30px;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(101, 101, 160);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.calcular-imc:hover {
+    opacity: 0.8;
+}
+
+.calcular-imc:active {
+    opacity: 0.6;
+}
+
+#resultado {
+    font-size: 23px;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .resum-imc h1 {
+        font-size: 30px;
+    }
+
+    .resum-imc p {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    #resultado {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}

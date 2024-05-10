@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="/assets/icon-calculator.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="resum-imc">
+            <h1>Calculadora IMC</h1>
+            <p>
+                IMC - Índice de Massa Corporal. É uma das ferramentas adotadas pela Organização Mundial de Saúde (OMS).
+                indicando também os níveis de magreza e
+                obesidade. 
+            </p>
+
+            <h4><b>Para calcular seu IMC, digite seu peso e sua altura nos campos abaixo!</b> </h4>
+        </div>
+
+        <form onsubmit="return calcular(event)">
+            <label>Digite seu peso: </label> 
+            <input type="text" name="peso" id="peso" placeholder="Exemplo 65" required /> <br /><br />
+
+            <label>Digite sua altura: </label> 
+            <input type="text" name="altura" id="altura" placeholder="Exemplo 1.90" required /> <br /><br />
+
+            <input class="calcular-imc" type="submit" value="Calcular IMC">
+
+        </form>
+
+        <div id="resultado"><b></b></div>
+
+    </div>
+
+</body>
+
+</html>
